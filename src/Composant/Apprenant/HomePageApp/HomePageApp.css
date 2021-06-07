@@ -1,0 +1,14 @@
+.homePage{
+    width: 100vw;
+    background-color: #00b894;
+}
+.aside{
+    /* background-color: rgba(65, 105, 251, 0.5); */
+    background-color: rgb(240, 242, 245);
+}
+.main-page{
+    /* background: linear-gradient(to right top, #65dfc9, #6cdbeb); */
+    /* background: linear-gradient(to right top, #65dfc9, #6cdb6c); */
+    /* background: linear-gradient(to right top, rgba(110, 140, 248, 0.9), rgba(110, 140, 248, 0.5)); */
+    background-color: rgba(240, 242, 245, 1);
+}

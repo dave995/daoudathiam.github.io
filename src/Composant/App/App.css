@@ -1,0 +1,30 @@
+
+
+:root {
+  --white-color: #ffffff;
+  --light-grey-color: #EAE8E8;
+  --light-green-color: #1ecc78;
+  --green-color: #0cb765;
+  --red-color: #EB1D27;
+  --blue-color: #4f78a4;
+  --dark-red-color: #d31017;
+  --dark-grey-color: #363636;
+  --black-color: #333030;
+  --deep-black-color: #000000;
+}
+
+.loader {
+  border: 10px solid var(--light-grey-color);
+  border-radius: 50%;
+  border-top: 10px solid var(--dark-red-color);
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+  margin: 40px auto 20px;
+}
+
+.loaderText {
+  text-align: center;
+  color: var(--white-color);
+}
